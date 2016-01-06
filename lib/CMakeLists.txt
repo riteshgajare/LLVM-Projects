@@ -1,0 +1,13 @@
+add_subdirectory(summary)
+add_subdirectory(dominance)
+add_subdirectory(CSE)
+add_subdirectory(Transform)
+add_subdirectory(LICM)
+add_subdirectory(cfg)
+add_subdirectory(SLP)
+
+#add_directory(GCM)
+#add_directory(SLP)
+#add_directory(FT)
+#add_directory(profiler)
+#add_directory(LC3)

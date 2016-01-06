@@ -1,0 +1,5 @@
+if(use_c)
+  add_library(SLP STATIC SLP_C.c)
+else()
+  add_library(SLP STATIC SLP_Cpp.cpp)
+endif()
